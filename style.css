@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    background-color: lightcoral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url(background.jpg) no-repeat;
+    background-size: cover;
+}
+.box{
+    width: 420px;
+    border-radius: 10px;
+    border: 1px solid silver;
+    text-align: center;
+    padding: 35px 30px;
+    background: transparent;
+    backdrop-filter: blur(15px);
+}
+.box form h1{
+    margin: 10px 0px 10px 0px;
+    font-size: 38px;
+    color: white;
+}
+.box .input-box{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box .input-box input{
+    width: 100%;
+    height: 7vh;
+    border-radius: 30px;
+    padding-left: 10px;
+    background: transparent;
+    border: 1px solid silver;
+    outline: none;
+    color: white;
+}
+.input-box input::placeholder{
+    color: white;
+}
+.box .remeber-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+.remeber-box input{
+    margin-right: 5px;
+}
+.remeber-box label{
+    color: white;
+}
+.remeber-box a{
+    text-decoration: none;
+    color: white;
+}
+.box .btn {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn button{
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+.box .register{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+.register a{
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+}
+.register p{
+    color: white;
+}
+.register a:hover{
+    border-bottom: 1px solid white;
+}
